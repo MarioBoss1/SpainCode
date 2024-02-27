@@ -1,0 +1,72 @@
+body {
+  color: #333;
+  background: url("https://cdnb.artstation.com/p/assets/images/images/061/950/865/large/naudaff3d-car-meet-1.jpg?1681996610") 0 0 / cover;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+h1 {
+  color: #0366d6;
+  margin-bottom: 20px;
+  font-family: Overpass, sans-serif;
+  font-size: 3em;
+}
+
+#car-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.car {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.car img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.details-button-blue {
+  background-color: #0366d6;
+}
+
+.details-button-blue:hover {
+  background-color: #0056b3;
+}
+
+.details-button-black {
+  background-color: #000;
+}
+
+.details-button-black:hover {
+  background-color: #333;
+}
+
+@media (width <= 600px) {
+  .car {
+    width: 100%;
+  }
+
+  header, #car-list {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=index.56797b56.css.map */
